@@ -1,4 +1,4 @@
-.env/
-__pycache__/
-.dist/
-.vscode/
+/.env/
+/__pycache__/
+/.dist/
+/.vscode/
