@@ -1,3 +1,5 @@
+/*Index*/
+
 body{
     background-color: #008E97;
     font-weight:300px;
@@ -27,38 +29,16 @@ nav{
     list-style-type: none;
 }
 
-
-li a {
-    text-decoration: none;
-    color: white;
-    text-align: center;
-
-}
-
-li a:hover{
-    background-color: #111111;
-}
-
-.game-logo{
-    border: solid #111111;
-}
-
 #title{
     text-align: center;
 }
 
-#VR_headsets{
-    display: flex;
-    gap: 10px;
-}
 
+/*Rodapé*/
 #rodape-pages{
     display: flex;
-    gap: 70%;
+    justify-content: space-between;
     width: 100%;
-    margin-bottom: 0%;
-    left: 0;
-    bottom: 0;
     background-color: black;
     color: white;
     text-align: center;
@@ -67,6 +47,9 @@ li a:hover{
 
 }
 
+.footer-elements{
+    margin: 0 1%;
+}
 .cards_features{
     margin: 0 auto;
     display: flex;
@@ -91,20 +74,32 @@ li a:hover{
     text-decoration: none;
 }
 
+/*Características do jogo*/
+#VR_headsets{
+    display: flex;
+    gap: 10px;
+}
 
+
+/*Mapas interessantes*/
 .mapas{
-    
     margin: 0 10%;
     display: grid;
     gap: 50px;
 }
 
+.modal-content{
+    border: solid white;
+    background-color: black;
+    color: white;
+}
 .primeiros-mapas{
     grid-template-rows: 1fr 1fr 1fr;
     gap: 50px;
 }
 
 
+/*Sobre mim*/
 #emo-puppy-girl{
     float:right;
     width: 300px;
@@ -112,5 +107,9 @@ li a:hover{
 
 #goularte-profile-pic{
     width: 200px;
-    float: left;
+}
+
+.sobre_mim_1_paragrafo{
+    display: flex;
+    gap: 10px;
 }
