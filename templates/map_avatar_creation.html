@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+
+{% block title %}Criação de mapas e de avatares{% endblock %}
+
+<div id="home">
+    <h1>{% block sobre%}Criação de mapas e de avatares{% endblock %}</h1>
+  </div>
+
+{% block content %}
+    <p>
+        Qualquer pessoa que tenha conhecimentos pode criar tanto um mapa quanto um avatar para o jogo. Obviamente, o jogo possui algumas diretrizes sobre o conteúdo que será colocado no jogo, devendo o jogador evitar conteúdos NSFW (Not Safe For Work), embora essa não seja um regra absoluta.
+    </p>
+    <p>
+        Para criar os mapas, o criador deve saber sobre Unity e modelagem 3D em Blender. Entretanto, existe uma regra sobre quem pode fazer esses conteúdos. Somente jogadores que possuem o User Level (Nível de confiança usuário) podem publicar seus conteúdos no jogo em si. Essa medida serve para que não haja abuso por parte dos jogadores na criação de conteúdos, sejam eles mapas ou avatares.
+    </p>
+    <p>
+        <img src="../static/images/map creation tutorial.jpg" alt="Tutorial de criação de mapas no youtube" width="400px">
+    </p>
+{% endblock %}
+
+{% block footer %}
+<footer id="rodape-pages">
+    <h4>Todos os direitos reservados</h4>
+    <h4 id="home-footer"><a href="/HOME">Homepage</a></h4>
+  </footer>
+{% endblock %}

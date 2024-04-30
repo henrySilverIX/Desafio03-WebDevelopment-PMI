@@ -1,0 +1,113 @@
+body{
+    background-color: #008E97;
+    font-weight:300px;
+    color: black;
+}
+
+.container{
+    max-width: 85%;
+    margin: 0 auto;
+    position: relative;
+    min-height: 100vh;
+}
+
+.my-navbar{
+    padding: 0 10px;
+}
+
+nav{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-indices{
+    display: flex;
+    gap: 10px;
+    list-style-type: none;
+}
+
+
+li a {
+    text-decoration: none;
+    color: white;
+    text-align: center;
+
+}
+
+li a:hover{
+    background-color: #111111;
+}
+
+.game-logo{
+    border: solid #111111;
+}
+
+#title{
+    text-align: center;
+}
+
+#VR_headsets{
+    display: flex;
+    gap: 10px;
+}
+
+#rodape-pages{
+    display: flex;
+    gap: 70%;
+    width: 100%;
+    margin-bottom: 0%;
+    left: 0;
+    bottom: 0;
+    background-color: black;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    height: 2.5rem;
+
+}
+
+.cards_features{
+    margin: 0 auto;
+    display: flex;
+    gap: 100px;
+}
+
+.card{
+    color: white;
+    background-color: black;
+}
+.card-title{
+    text-align: center;
+}
+
+.card-img-top{
+    width: 100px;
+    margin: 0 auto;
+}
+
+#home-footer a{
+    color: white;
+    text-decoration: none;
+}
+
+
+.mapas{
+    display: grid;
+}
+
+.primeiros-mapas{
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 10px;
+}
+
+
+#emo-puppy-girl{
+    float:right;
+    width: 300px;
+}
+
+#goularte-profile-pic{
+    width: 200px;
+    float: left;
+}

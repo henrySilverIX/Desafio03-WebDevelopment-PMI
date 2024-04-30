@@ -1,0 +1,37 @@
+{% extends "base.html" %}
+
+{% block title %}Características do jogo {% endblock %}
+
+<div id="home">
+    <h1>{% block sobre%}Características{% endblock %}</h1>
+  </div>
+
+{% block content %}
+    <p>
+      
+      O VRChat é uma plataforma de jogos e um mundo virtual multijogador que permite aos jogadores interagirem uns com os outros online, utilizando avatares em ambientes tridimensionais. Os usuários podem se comunicar através de voz, explorar uma variedade de mundos virtuais, participar em jogos e atividades, e criar seus próprios avatares e ambientes. O jogo é famoso pela sua interatividade e pela liberdade de expressão dentro dos mundos virtuais.
+    </p>
+    <div id="VR_headsets">
+      <img src="../static/images/valve_index.png" width="350px">
+      <p>
+        O VRChat oferece suporte a uma ampla gama de headsets de realidade virtual, incluindo Oculus e SteamVR, como HTC Vive e Valve Index, e também está disponível para Oculus Quest, que suporta jogabilidade multiplataforma. Um ponto interessante é que o VRChat permite o uso de rastreamento de corpo inteiro, capturando movimentos da cintura e das pernas, e possui suporte para rastreamento de dedos e reconhecimento de gestos, permitindo que movimentos dos dedos dos usuários sejam refletidos em seus avatares.
+      </p>
+      <img src="../static/images/oculus quest 2.png" width="350px">
+    </div>
+    <p>
+      A comunidade em torno do VRChat é bastante ativa, incluindo youtubers e streamers que contribuem para a popularidade do jogo. A plataforma também viu um aumento de usuários durante eventos como a pandemia de COVID-19, com registros de mais de 40 mil usuários simultâneos durante eventos especiais.
+    </p>
+    <p>
+      Além disso, o VRChat tem se destacado como um espaço para eventos de música e dança, com aulas virtuais e performances aproveitando o suporte de rastreamento de corpo inteiro. Eventos de dance music e até concertos virtuais aconteceram dentro do VRChat, evidenciando a flexibilidade e as possibilidades criativas que a plataforma oferece.
+    </p>
+    <p>
+      Algo que é interessante de ressaltar é que os óculos de realidade virtual era bem caros até mesmo no exterior, entretanto com o lançamento do Oculus Quest, essa tecnologia se tornou mais popular e mais pessoas puderam experienciar o jogo de um outra maneira. Entretanto, não haviam muitos mapas que davam suporte no começo do lançamento do Oculus Quest. Isso porque o Oculus Quest possui um hardware um pouco mais fraco para rodar certos jogos.
+    </p>
+{% endblock %}
+
+{% block footer %}
+<footer id="rodape-pages">
+    <h4>Todos os direitos reservados</h4>
+    <h4 id="home-footer"><a href="/HOME">Homepage</a></h4>
+  </footer>
+{% endblock %}

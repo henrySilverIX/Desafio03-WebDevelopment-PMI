@@ -1,0 +1,92 @@
+{% extends "base.html" %}
+
+{% block title %}VRChat{% endblock %}
+
+
+{% block sobre%}Home{% endblock %}
+
+  {% block carrosel%}
+  <div id="carouselExample" class="carousel slide">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="../static/images/VRC_Treehouse_5.png" class="d-block w-100" alt="Treehouse map on vrchat" width="1000px">
+        </div>
+        <div class="carousel-item">
+          <img src="../static/images/home-vrchat.png" class="d-block w-100" alt="Home map vrchat" width="1000px">
+        </div>
+        <div class="carousel-item">
+          <img src="../static/images/loli-home-map.jpeg" class="d-block w-100" alt="Loli dancing on home map" width="1000px">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  {% endblock %}
+
+
+  {% block content %}
+      <h1 id="title">VRChat</h1>
+      <p>
+          Criado em 2014, VRChat é um jogo em realidade virtual 3D. Em seu lançamento, o jogo poderia ser jogado no Oculus Rift. Por mais que o jogo seja melhor aproveitado em realidade virtual, nada impede que o jogador posso jogá-lo em seu desktop, embora boa parte da experiência do jogo se perde ao fazer isso.
+      </p>
+      <p>
+          VRChat foi feito usando Unity e C#. Sua gameplay consiste em exploração de mapas e a interação entre os outros jogadores, sendo esse último um dos focos maiores do jogo. Existem diversos mapas que podem ser explorados dentro desse jogo e cada um possui uma atmosfera e características únicas. Uma curiosidade interessante sobre o jogo é que os mapas podem ser feitos pela própria comunidade de jogadores caso o jogador em questão saiba usar a plataforma Unity e tenha conhecimentos sobre modelagem 3D. O próprio suporte e a equipe de desenvolvedores do jogo permitem que os jogadores integrem suas criações dentro do jogo.
+      </p>
+      <p>
+          Por ser um jogo 3D em realidade virtual focado na interação, o jogo possui avatares que podem ser os mais variados possíveis desde personagens de anime e jogos a pessoas famosas reais, isso apenas para dar uma ideia de como são os avatares. Assim como os mapas, os avatares podem ser feitos pelos próprios jogadores caso os mesmos saibam sobre modelagem 3D em Blender.
+      </p>
+
+      <!--Cards para exposição sobre o que pode ser feito no jogo-->
+      <div class="cards_features">
+        <div class="card" style="width: 15rem;">
+          <img src="../static/images/group_icon.png" class="card-img-top" alt="Icone de Grupo">
+          <div class="card-body">
+            <h5 class="card-title">Faça amigos</h5>
+            <p class="card-text">Crie novas amizades e interaja com pessoas de diferentes partes do mundo</p>
+          </div>
+        </div>
+
+
+        <div class="card" style="width: 15rem;">
+          <img src="../static/images/unity_icon.jpg" class="card-img-top" alt="Icone do Unity">
+          <div class="card-body">
+            <h5 class="card-title">Crie mundos</h5>
+            <p class="card-text">Seja um criador de mapas e compartilhe seu trabalho com a comunidade</p>
+          </div>
+        </div>
+
+        <div class="card" style="width: 15rem;">
+          <img src="../static/images/blender_icon.png" class="card-img-top" alt="Icone do Blender">
+          <div class="card-body">
+            <h5 class="card-title">Crie avatares</h5>
+            <p class="card-text">Modele diferentes avatares para surpreender seus amigos e para se sentir a vontade dentro do jogo</p>
+          </div>
+        </div>
+
+        <div class="card" style="width: 15rem;">
+          <img src="../static/images/world_icon.png" class="card-img-top" alt="Icone de Mundo">
+          <div class="card-body">
+            <h5 class="card-title">Junte-se a comunidade</h5>
+            <p class="card-text">A comunidade do VRChat tem sido compartilhada a muito tempo. Faça parte da história do jogo e ajude o VRChat a chegar em mais pessoas.</p>
+          </div>
+        </div>
+      </div>
+
+      <p>
+        
+      </p>
+  {% endblock %}
+
+
+{% block footer %}
+<footer id="rodape-pages">
+  <h4>Todos os direitos reservados</h4>
+  <h4 id="home-footer"><a href="/HOME">Homepage</a></h4>
+</footer>
+{% endblock %}
