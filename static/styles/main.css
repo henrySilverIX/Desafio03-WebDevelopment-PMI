@@ -70,7 +70,7 @@ li a:hover{
 .cards_features{
     margin: 0 auto;
     display: flex;
-    gap: 100px;
+    gap: 190px;
 }
 
 .card{
@@ -93,12 +93,15 @@ li a:hover{
 
 
 .mapas{
+    
+    margin: 0 10%;
     display: grid;
+    gap: 50px;
 }
 
 .primeiros-mapas{
     grid-template-rows: 1fr 1fr 1fr;
-    gap: 10px;
+    gap: 50px;
 }
 
 
