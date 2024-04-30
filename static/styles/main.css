@@ -1,3 +1,12 @@
+/*Base*/
+.container-page{
+    max-width: 85%;
+    margin: 0 auto;
+    position: relative;
+    min-height: 100vh;
+}
+
+
 /*Index*/
 
 body{
@@ -6,12 +15,7 @@ body{
     color: black;
 }
 
-.container{
-    max-width: 85%;
-    margin: 0 auto;
-    position: relative;
-    min-height: 100vh;
-}
+
 
 .my-navbar{
     padding: 0 10px;
@@ -50,10 +54,12 @@ nav{
 .footer-elements{
     margin: 0 1%;
 }
+
+/*Para os cards*/
 .cards_features{
     margin: 0 auto;
     display: flex;
-    gap: 190px;
+    gap: 10%;
 }
 
 .card{
@@ -69,6 +75,7 @@ nav{
     margin: 0 auto;
 }
 
+/*Footer da home*/
 #home-footer a{
     color: white;
     text-decoration: none;
@@ -82,20 +89,14 @@ nav{
 
 
 /*Mapas interessantes*/
-.mapas{
-    margin: 0 10%;
-    display: grid;
-    gap: 50px;
-}
-
 .modal-content{
     border: solid white;
     background-color: black;
     color: white;
 }
-.primeiros-mapas{
-    grid-template-rows: 1fr 1fr 1fr;
-    gap: 50px;
+
+.container{
+    gap:10%;
 }
 
 
@@ -107,9 +108,10 @@ nav{
 
 #goularte-profile-pic{
     width: 200px;
+    float: left;
 }
 
 .sobre_mim_1_paragrafo{
     display: flex;
-    gap: 10px;
+    gap: 10%;
 }
