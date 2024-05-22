@@ -1,0 +1,31 @@
+{% extends "base.html" %}
+
+{% block title %}Contatos{% endblock %}
+
+
+{% block sobre%}Como me contatar:{% endblock %}
+
+{% block content %}
+<form>
+    <label> Nome completo: </label>
+    <input type="text"><br>
+
+    <label> Email: </label>
+    <input type="text"><br>
+
+    <label> Telefone: </label>
+    <input type="text"><br>
+
+    <label> Deixe seu comentário: </label>
+    <textarea></textarea>
+</form>
+
+{% endblock %}
+
+
+{% block footer %}
+<footer id="rodape-pages">
+    <h4 class="footer-elements">Todos os direitos reservados</h4>
+    <h4 id="home-footer" class="footer-elements"><a href="/HOME">Homepage</a></h4>
+  </footer>
+{% endblock %}

@@ -27,3 +27,7 @@ def mapas_interessantes():
 @app.route("/Sobre Mim")
 def about_me():
     return render_template("about-me.html")
+
+@app.route("/Contatos")
+def contatos():
+    return render_template("contatos.html")
