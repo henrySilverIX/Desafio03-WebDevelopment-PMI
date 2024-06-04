@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+
+{% block title %}Consultar dados{% endblock %}
+
+{% block sobre %}Informações Contatadas{% endblock %}
+
+
+{% block content %}
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Nome Completo</th>
+            <th>Email</th>
+            <th>Telefone</th>
+            <th>Comentário</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for row in resultados %}
+        <tr>
+            <td>{{ row.id }}</td>
+            <td>{{ row.nome_completo }}</td>
+            <td>{{ row.email }}</td>
+            <td>{{ row.telefone }}</td>
+            <td>{{ row.comentario }}</td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
+{% endblock %}

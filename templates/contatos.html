@@ -2,30 +2,28 @@
 
 {% block title %}Contatos{% endblock %}
 
-
-{% block sobre%}Como me contatar:{% endblock %}
+{% block sobre %}Digite seu contato para que possamos nos comunicar:{% endblock %}
 
 {% block content %}
-<form>
+<form action="/submit" method="POST">
     <label> Nome completo: </label>
-    <input type="text"><br>
+    <input type="text" name="nome_completo" required placeholder="Nome Completo" class="form__input"><br>
 
     <label> Email: </label>
-    <input type="text"><br>
+    <input type="email" name="email" required placeholder="Email" class="form__input"><br>
 
     <label> Telefone: </label>
-    <input type="text"><br>
+    <input type="text" name="telefone" required placeholder="Telefone" class="form__input"><br>
 
     <label> Deixe seu comentário: </label>
-    <textarea></textarea>
+    <input type="text" name="comentario" required placeholder="Comentário" class="form__input"><br>
+    <button type="submit" value="Enviar">Enviar</button>
 </form>
-
 {% endblock %}
-
 
 {% block footer %}
 <footer id="rodape-pages">
     <h4 class="footer-elements">Todos os direitos reservados</h4>
     <h4 id="home-footer" class="footer-elements"><a href="/HOME">Homepage</a></h4>
-  </footer>
+</footer>
 {% endblock %}
